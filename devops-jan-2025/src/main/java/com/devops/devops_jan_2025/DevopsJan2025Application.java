@@ -16,4 +16,9 @@ public class DevopsJan2025Application {
 	    public String hello() {
 	      return String.format("<h1> Hello There, Welcome to my project <h1>");
 }
+	 //branch demo
+	 @GetMapping("/welcome")
+	    public String welcome() {
+	      return String.format("<h1> Welcome to world of devops <h1>");
+}
 }
